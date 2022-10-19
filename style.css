@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: lightcoral;
+}
+.container{
+  width:40%;
+  background-color:white;
+  margin-top:140px;
+  padding-bottom:30px;
+}
+.container_input{
+  margin-top:20px;
+}
+.container_header{
+  margin-top:20px;
+}
+.inner_task{
+  display:flex;
+  flex-direction:row;
+}
+
+.tasks_container{
+  width:100%;
+  margin-top:10px;
+}
+#tasks{
+  margin-top:20px;
+}
+#posts{
+  width:100%;
+}
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  gap: 25px;
+}
+
+#msg {
+  color: red;
+}
+.fa-trash-alt{
+  color:red;
+}
+.fa-edit{
+  color:blue;
+}
+#posts div{
+  margin-top:20px;
+}
